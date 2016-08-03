@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2BCF3F71BBD5A04007D2143 /* CLFormSubmit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2BCF3F61BBD5A04007D2143 /* CLFormSubmit.h */; };
+		C2BCF3F91BBD5A04007D2143 /* CLFormSubmit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF3F81BBD5A04007D2143 /* CLFormSubmit.m */; };
+		C2BCF3FF1BBD5A04007D2143 /* libCLFormSubmit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BCF3F31BBD5A04007D2143 /* libCLFormSubmit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2BCF4001BBD5A04007D2143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BCF3EB1BBD5A04007D2143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BCF3F21BBD5A04007D2143;
+			remoteInfo = CLFormSubmit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2BCF3F11BBD5A04007D2143 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C2BCF3F71BBD5A04007D2143 /* CLFormSubmit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2BCF3F31BBD5A04007D2143 /* libCLFormSubmit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCLFormSubmit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BCF3F61BBD5A04007D2143 /* CLFormSubmit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFormSubmit.h; sourceTree = "<group>"; };
+		C2BCF3F81BBD5A04007D2143 /* CLFormSubmit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFormSubmit.m; sourceTree = "<group>"; };
+		C2BCF3FE1BBD5A04007D2143 /* CLFormSubmitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLFormSubmitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BCF4041BBD5A04007D2143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BCF3F01BBD5A04007D2143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BCF3FB1BBD5A04007D2143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BCF3FF1BBD5A04007D2143 /* libCLFormSubmit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2BCF3EA1BBD5A04007D2143 = {
+			isa = PBXGroup;
+			children = (
+				C2BCF3F51BBD5A04007D2143 /* CLFormSubmit */,
+				C2BCF4021BBD5A04007D2143 /* CLFormSubmitTests */,
+				C2BCF3F41BBD5A04007D2143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BCF3F41BBD5A04007D2143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BCF3F31BBD5A04007D2143 /* libCLFormSubmit.a */,
+				C2BCF3FE1BBD5A04007D2143 /* CLFormSubmitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BCF3F51BBD5A04007D2143 /* CLFormSubmit */ = {
+			isa = PBXGroup;
+			children = (
+				C2BCF3F61BBD5A04007D2143 /* CLFormSubmit.h */,
+				C2BCF3F81BBD5A04007D2143 /* CLFormSubmit.m */,
+			);
+			path = CLFormSubmit;
+			sourceTree = "<group>";
+		};
+		C2BCF4021BBD5A04007D2143 /* CLFormSubmitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BCF4031BBD5A04007D2143 /* Supporting Files */,
+			);
+			path = CLFormSubmitTests;
+			sourceTree = "<group>";
+		};
+		C2BCF4031BBD5A04007D2143 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2BCF4041BBD5A04007D2143 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BCF3F21BBD5A04007D2143 /* CLFormSubmit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BCF4071BBD5A04007D2143 /* Build configuration list for PBXNativeTarget "CLFormSubmit" */;
+			buildPhases = (
+				C2BCF3EF1BBD5A04007D2143 /* Sources */,
+				C2BCF3F01BBD5A04007D2143 /* Frameworks */,
+				C2BCF3F11BBD5A04007D2143 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLFormSubmit;
+			productName = CLFormSubmit;
+			productReference = C2BCF3F31BBD5A04007D2143 /* libCLFormSubmit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2BCF3FD1BBD5A04007D2143 /* CLFormSubmitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BCF40A1BBD5A04007D2143 /* Build configuration list for PBXNativeTarget "CLFormSubmitTests" */;
+			buildPhases = (
+				C2BCF3FA1BBD5A04007D2143 /* Sources */,
+				C2BCF3FB1BBD5A04007D2143 /* Frameworks */,
+				C2BCF3FC1BBD5A04007D2143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BCF4011BBD5A04007D2143 /* PBXTargetDependency */,
+			);
+			name = CLFormSubmitTests;
+			productName = CLFormSubmitTests;
+			productReference = C2BCF3FE1BBD5A04007D2143 /* CLFormSubmitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BCF3EB1BBD5A04007D2143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cheeselemon;
+				TargetAttributes = {
+					C2BCF3F21BBD5A04007D2143 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C2BCF3FD1BBD5A04007D2143 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C2BCF3EE1BBD5A04007D2143 /* Build configuration list for PBXProject "CLFormSubmit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2BCF3EA1BBD5A04007D2143;
+			productRefGroup = C2BCF3F41BBD5A04007D2143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BCF3F21BBD5A04007D2143 /* CLFormSubmit */,
+				C2BCF3FD1BBD5A04007D2143 /* CLFormSubmitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BCF3FC1BBD5A04007D2143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BCF3EF1BBD5A04007D2143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BCF3F91BBD5A04007D2143 /* CLFormSubmit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BCF3FA1BBD5A04007D2143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2BCF4011BBD5A04007D2143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BCF3F21BBD5A04007D2143 /* CLFormSubmit */;
+			targetProxy = C2BCF4001BBD5A04007D2143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2BCF4051BBD5A04007D2143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2BCF4061BBD5A04007D2143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BCF4081BBD5A04007D2143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2BCF4091BBD5A04007D2143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2BCF40B1BBD5A04007D2143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CLFormSubmitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2BCF40C1BBD5A04007D2143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CLFormSubmitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BCF3EE1BBD5A04007D2143 /* Build configuration list for PBXProject "CLFormSubmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BCF4051BBD5A04007D2143 /* Debug */,
+				C2BCF4061BBD5A04007D2143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BCF4071BBD5A04007D2143 /* Build configuration list for PBXNativeTarget "CLFormSubmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BCF4081BBD5A04007D2143 /* Debug */,
+				C2BCF4091BBD5A04007D2143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BCF40A1BBD5A04007D2143 /* Build configuration list for PBXNativeTarget "CLFormSubmitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BCF40B1BBD5A04007D2143 /* Debug */,
+				C2BCF40C1BBD5A04007D2143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BCF3EB1BBD5A04007D2143 /* Project object */;
+}
